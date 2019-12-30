@@ -1,0 +1,1 @@
+{"version":3,"file":"bootEnvironment.js","sourceRoot":"","sources":["../../../src/core/bootEnvironment.ts"],"names":[],"mappings":";;AACA,4CAAyC;AAEzC,SAAgB,eAAe,CAAC,WAA4B;IACxD,MAAM,MAAM,GAAG,IAAI,eAAM,EAAE,CAAC;IAC5B,MAAM,CAAC,eAAe,CAAC,WAAW,CAAC,CAAC;IACpC,MAAM,CAAC,OAAO,EAAE,CAAC;AACrB,CAAC;AAJD,0CAIC"}
