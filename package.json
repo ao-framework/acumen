@@ -13,7 +13,8 @@
     "test:dev": "node ./dist/src/cli/loader dev",
     "test": "node ./dist/src/cli/loader test/build",
     "webpack:dev": "webpack",
-    "preversion": "npm test"
+    "preversion": "npm test",
+    "postversion": "git push --tags"
   },
   "repository": {
     "type": "git",
