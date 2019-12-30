@@ -1,0 +1,71 @@
+{
+  "name": "@ao-framework/acumen",
+  "version": "0.0.0",
+  "description": "Testing framework for javascript",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "test:dev": "node ./dist/src/cli/loader dev",
+    "test": "node ./dist/src/cli/loader test/build",
+    "webpack:dev": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ao-framework/acumen.git"
+  },
+  "keywords": [
+    "Testing"
+  ],
+  "author": "Josh Miller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ao-framework/acumen/issues"
+  },
+  "homepage": "https://github.com/ao-framework/acumen#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.22",
+    "@fortawesome/free-solid-svg-icons": "^5.10.2",
+    "@fortawesome/vue-fontawesome": "^0.1.7",
+    "@types/chai": "^4.2.3",
+    "@types/codemirror": "0.0.76",
+    "@types/convert-source-map": "^1.5.1",
+    "@types/faker": "^4.1.6",
+    "@types/jsdom": "^12.2.4",
+    "@types/node": "^12.7.5",
+    "@types/prettier": "^1.18.2",
+    "@types/webpack": "^4.39.1",
+    "@types/ws": "^6.0.3",
+    "animate.css": "^3.7.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "codemirror": "^5.48.4",
+    "css-loader": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.3.1",
+    "ts-loader": "^6.1.0",
+    "typescript": "^3.6.3",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.1",
+    "vue-property-decorator": "^8.2.2",
+    "vue-router": "^3.1.3",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "convert-source-map": "^1.6.0",
+    "faker": "^4.1.0",
+    "jsdom": "^15.2.0",
+    "prettier": "^1.18.2",
+    "source-map": "^0.7.3",
+    "tslib": "^1.10.0",
+    "v8-to-istanbul": "^3.2.3",
+    "ws": "^7.1.2"
+  }
+}
