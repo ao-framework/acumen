@@ -11,8 +11,6 @@
     </em>
 </p>
 
----
-
 ### Installation
 ```bash
 npm install --save-dev @ao-framework/acumen
