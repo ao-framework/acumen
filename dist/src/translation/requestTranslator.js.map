@@ -1,0 +1,1 @@
+{"version":3,"file":"requestTranslator.js","sourceRoot":"","sources":["../../../src/translation/requestTranslator.ts"],"names":[],"mappings":";;AAEA,MAAM,QAAQ,GAAG,IAAI,OAAO,EAAiD,CAAA;AAE7E,MAAa,iBAAiB;IAE1B,YAAmB,OAAmC;QAClD,QAAQ,CAAC,GAAG,CAAC,IAAI,EAAE,OAAO,CAAC,CAAC;IAChC,CAAC;CACJ;AALD,8CAKC"}
