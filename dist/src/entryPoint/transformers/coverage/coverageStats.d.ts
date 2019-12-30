@@ -1,0 +1,10 @@
+import { iCoverageTable } from "../../../contracts/coverage/helpers/iCoverageTable";
+import { iCoverageDirectory } from "../../../contracts/coverage/model/iCoverageDirectory";
+import { iCoverageFile, v8Coverage } from "../../../contracts/coverage/model/iCoverageFile";
+export declare function findScriptCoverage(directory: iCoverageDirectory, table: iCoverageTable): Promise<void>;
+export declare function getFirstFileFromCoverage(file: iCoverageFile): v8Coverage;
+export declare function getStatementPercentage(coverage: v8Coverage): number;
+export declare function getFunctionPercentage(coverage: v8Coverage): number;
+export declare function getBranchPercentage(coverage: v8Coverage): number;
+export declare function getPercentages(file: iCoverageFile): void;
+export declare function getSelections(file: iCoverageFile): void;
