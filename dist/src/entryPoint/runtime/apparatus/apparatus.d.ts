@@ -6,7 +6,7 @@ import { iPromiseList } from "../../../contracts/base/iPromiseList";
 import { browser } from "../../api/acumen";
 import { State } from "../../model/state/state";
 import { RuntimeContainer } from "../runtimeContainer";
-import { Tagger } from './tagManager';
+import { Tagger } from "./tagManager";
 export declare class Apparatus {
     /**
      * Holds the master handler that the runtime will call

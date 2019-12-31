@@ -12,7 +12,7 @@ import { Spotlight } from "../../model/testInstance/additions/spotlight";
 import { Warning } from "../../model/testInstance/additions/warning";
 import { RuntimeContainer } from "../runtimeContainer";
 import { bindFunctions, byNameOrFunctionName, eachTest, suiteOrTestFullName, whenChildSuite, whenSuiteController, whenTest } from "./apparatusLogic";
-import { Tagger } from './tagManager';
+import { Tagger } from "./tagManager";
 
 const containers = new WeakMap<Apparatus, RuntimeContainer>()
 const beforeThrowHandlers = new WeakMap<Apparatus, iFunction[]>();
