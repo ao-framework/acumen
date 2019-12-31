@@ -9,7 +9,7 @@
     "test": "test"
   },
   "bin": {
-    "acumen": "dist/src/cli/loader.js"
+    "ao-acumen": "./dist/src/cli/loader.js"
   },
   "scripts": {
     "dev": "tsc --watch",
